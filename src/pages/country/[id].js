@@ -58,7 +58,7 @@ const Country = ({ country }) => {
                             </div>
                             <div className={styles.overview_area}>
                             <div className={styles.overview_value}>
-                                    {country.area.toLocaleString().split(/\s/).join(',')}
+                                    {country.area}
                                 </div>
                                 <div className={styles.overview_label}>
                                     Area (km<sup>2</sup>)
